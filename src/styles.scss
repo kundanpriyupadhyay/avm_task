@@ -1,0 +1,82 @@
+/* You can add global styles to this file, and also import other style files */
+@import "../node_modules/bootstrap/scss/bootstrap";
+@import "../node_modules/font-awesome/css/font-awesome.min.css";
+
+html,
+body {
+  height: 100%;
+}
+body {
+  margin: 0;
+  background-color: #f3f3f3;
+  font-family: Rota-Black, "Rota-Bold", "Rota-Medium", "Rota-Regular";
+}
+
+$main-color: #2D2D2D;
+$optional-color: #999999;
+$body-color: #6DD0A5 ;
+$span-color: #5448C8 ;
+// font  scheme for font-family
+@font-face {
+  font-family: 'Rota-Black';
+  src: url('./assets/Rota-Fonts/Rota-Black.otf');
+}
+
+@font-face {
+  font-family: 'Rota-Bold';
+  src: url('./assets/Rota-Fonts/Rota-Bold.otf');
+}
+@font-face {
+  font-family: 'Rota-Medium';
+  src: url('./assets/Rota-Fonts/Rota-Medium.otf');
+}
+@font-face {
+  font-family: 'Rota-Regular';
+  src: url('./assets/Rota-Fonts/Rota-Regular.otf');
+}
+// Color scheme
+.bg-color {
+  background-color: $body-color;
+  height: 90px;
+  width:90px;
+  position: relative;
+  align-items: center;
+}
+
+.sub-bg-color {
+  background-color: $span-color;
+  height: 90px;
+  width:90px;
+  position: relative;
+  align-items: center;
+
+}
+.text-color {
+  color: $main-color;
+  font-weight: 900;
+
+}
+.title-color {
+  color: $span-color;
+font-size: 5rem !important;
+
+}
+.text {
+  color: $main-color;
+  font-family: 'Rota-Bold';
+}
+.subtext-color {
+  color: $optional-color;
+  font-weight: 900;
+  font-size: xx-large;
+}
+.sub-text{
+  color: $optional-color;
+  font-weight: lighter;
+}
+.round {
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+}
